@@ -41,6 +41,7 @@ body {
     padding-bottom: 100px;
     padding-top: 100px;
     background-color: #4a2574;
+    flex-wrap: flex;
 }
 
 .left-items {
@@ -64,6 +65,8 @@ body {
 .right-items img {
     border-radius: 20px;
     margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 button {
