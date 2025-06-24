@@ -1,5 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 .header {
@@ -90,9 +93,10 @@ button {
 
 .boys-images {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 40px;
     padding-bottom: 70px;
+    flex-wrap: wrap;
 }
 
 .boys-images img {
@@ -118,7 +122,6 @@ button {
     display: flex;
     flex-direction: column;
     padding: 70px;
-
 }
 .quote {
     font-size: 39px;
