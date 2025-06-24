@@ -41,14 +41,18 @@ body {
     padding-bottom: 100px;
     padding-top: 100px;
     background-color: #4a2574;
-    flex-wrap: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .left-items {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
+    margin-right: 50px;
+    width:500px;
+    margin-bottom: 50px;
 }
 
 .main-heading {
@@ -64,7 +68,6 @@ body {
 
 .right-items img {
     border-radius: 20px;
-    margin-left: 50px;
     display: flex;
     justify-content: flex-start;
 }
