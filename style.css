@@ -4,4 +4,134 @@ body {
 
 .header {
     display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    background-color: #4a2574;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+}
+
+.right-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.right-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-container {
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #4a2574;
+}
+
+.left-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+.subtext {
+    font-size: 18px;
+    font-weight: bold;
+    color: white
+}
+
+.right-items img {
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+button {
+    padding: 10px;
+    color: #4a2574;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.second-container {
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.information-header {
+    font-size: 36px;
+    color:#4a2574;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.boys-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 70px;
+}
+
+.boys-images img {
+    border-radius: 20px;
+}
+
+.boy div {
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffdaff;
+}
+
+.quote-container {
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+
+}
+.quote {
+    font-size: 39px;
+    font-style: italic;
+}
+.quote-by {
+    font-size: large;
+    align-self: flex-end;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
